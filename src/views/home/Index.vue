@@ -22,6 +22,9 @@
     <section class="previous-experience">
       <previous-experience />
     </section>
+    <section class="testimonials">
+      <testimonials />
+    </section>
   </div>
 </template>
 
@@ -31,12 +34,14 @@ import CustomButton from "@/components/custom-components/CustomButton.vue";
 import CustomTypeWriter from "@/components/custom-components/CustomTypeWriter.vue";
 import Portfolio from "../../components/home/Portfolio.vue";
 import PreviousExperience from "../../components/home/PreviousExperience.vue";
+import Testimonials from "../../components/home/Testimonials.vue";
 export default {
   components: {
     CustomButton,
     CustomTypeWriter,
     Portfolio,
-    PreviousExperience
+    PreviousExperience,
+    Testimonials
   },
   setup() {
     let words = ref([

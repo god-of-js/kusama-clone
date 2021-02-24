@@ -1,5 +1,5 @@
 <template>
-  <div v-text="title" />
+  <div v-text="title"  class="heading" />
 </template>
 
 <script>
@@ -19,5 +19,6 @@ div {
   font-size: 35px;
   color: $white;
   width: 100%;
+  font-weight: bold;
 }
 </style>
